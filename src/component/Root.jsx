@@ -10,7 +10,11 @@ var Root = React.createClass({
   	toastr.info("Welcome to React Koa Seed!");
   },
   render() {
-    return <div>Hello {this.props.name}!<div className="btn btn-primary" onClick={this.show}>Button</div></div>;
+    return <div>
+
+    	<h3>Hello {this.props.name}!<div className="btn btn-primary" onClick={this.show}>Button</div></h3>
+    	{this.props.children}
+    </div>;
   }
 });
 export default Root;
