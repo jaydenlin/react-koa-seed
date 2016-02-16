@@ -17,8 +17,10 @@
 --------
 
 * [React](https://github.com/facebook/react) (`^0.14.0`)
-  * Includes react-addons-test-utils (`^0.14.0`)
+  * Includes 3rd party react components (react-select, reactable, react-forms)
 * [react-router](https://github.com/rackt/react-router) (`^2.0.0`)
+* [Bootstrap](https://github.com/twbs/bootstrap)
+* [toastr](https://www.npmjs.com/package/toastr)
 * [Webpack](https://github.com/webpack/webpack)
 * [Koa](https://github.com/koajs/koa) (`^2.0.0-alpha`) 
   * Koa w/ koa-roles and koa-router
