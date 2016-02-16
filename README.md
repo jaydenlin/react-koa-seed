@@ -12,6 +12,9 @@
 ### Getting Started
 ---------------
 (TODO)
+```
+npm install
+```
 
 ### Features (TODO)
 --------
