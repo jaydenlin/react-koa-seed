@@ -20,6 +20,7 @@
   * Includes 3rd party react components (react-select, reactable, react-forms)
 * [react-router](https://github.com/rackt/react-router) (`^2.0.0`)
 * [Bootstrap](https://github.com/twbs/bootstrap)
+* [jQuery](https://github.com/jquery/jquery)
 * [toastr](https://www.npmjs.com/package/toastr)
 * [Webpack](https://github.com/webpack/webpack)
 * [Koa](https://github.com/koajs/koa) (`^2.0.0-alpha`) 
