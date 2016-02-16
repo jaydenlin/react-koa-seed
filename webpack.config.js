@@ -15,7 +15,7 @@ module.exports = {
         loaders: [
         {
             test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)/,
-            loader: 'url-loader'
+            loaders: ['url-loader']
         },{
             test: /\.css$/,
             loader: ExtractTextPlugin.extract("style-loader", "css-loader")
