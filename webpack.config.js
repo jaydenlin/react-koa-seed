@@ -12,7 +12,11 @@ module.exports = {
         filename: 'js/[name].js'
     },
     module: {
-        loaders: [{
+        loaders: [
+        {
+            test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)/,
+            loader: 'url-loader'
+        },{
             test: /\.css$/,
             loader: ExtractTextPlugin.extract("style-loader", "css-loader")
         }, {
