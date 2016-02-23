@@ -2,9 +2,11 @@ import "babel-polyfill";
 import Koa from "koa";
 import KoaRouter from "koa-router";
 import Roles from 'koa-roles';
+import cors from 'kcors';
 // Koa application is now a class and requires the new operator.
 const app = new Koa();
 const router = KoaRouter();
+app.use(cors());
 // uses async arrow functions
 // app.use(async (ctx, next) => {
   
@@ -19,7 +21,9 @@ const router = KoaRouter();
 
 router.get('/',async function (ctx, next) {
 
-	ctx.body="Hello World From API";
+	ctx.body={
+		hello:"world"
+	};//"Hello World From API";
 });
 
 
