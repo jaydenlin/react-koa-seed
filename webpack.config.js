@@ -11,6 +11,12 @@ module.exports = {
         publicPath: '/',
         filename: 'js/[name].js'
     },
+   
+    devServer: {
+        port: 8080,
+        historyApiFallback: true
+    },
+
     module: {
         loaders: [
         {
