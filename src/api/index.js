@@ -19,10 +19,18 @@ app.use(cors());
 // });
 
 
-router.get('/',async function (ctx, next) {
+// router.get('/',async function (ctx, next) {
 
+// 	ctx.body={
+// 		hello:"world"
+// 	};//"Hello World From API";
+// });
+
+
+router.get('/result/:id',async function (ctx, next) {
+	console.log(ctx.params.id);
 	ctx.body={
-		hello:"world"
+		hello:ctx.params.id
 	};//"Hello World From API";
 });
 
