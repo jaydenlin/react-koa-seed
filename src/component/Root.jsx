@@ -15,7 +15,6 @@ var Root = React.createClass({
   render() {
     return <div>
       <NavBar/>
-      <Link to={"/result"}>Go To Result</Link>
     	<h3>{this.props.title}<div className="btn btn-primary" onClick={this.show}>Button</div></h3>
     	{this.props.children}
     </div>;
